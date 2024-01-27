@@ -23,7 +23,6 @@ export default function Home() {
     <div className='bg-white h-[150px] w-[150px] md:h-[242px] md:w-[242px] mt-20 md:mt-48 mx-auto rounded-full text-center'>
       <p className='mt-[68px] text-center font-sans text-[20px] md:text-[32px] md:mt-[103px]'>EXPLORE</p>
     </div>
-    {/* Your content goes here */}
   </main>
 
   )

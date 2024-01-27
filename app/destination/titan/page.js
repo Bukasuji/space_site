@@ -9,30 +9,32 @@ import DestinationNav from '../../components/DestinationNav';
 export default function Titan() {
   
   return (
-  <main className="min-h-screen flex flex-col bg-contain md:bg-cover md:bg-[url('/assets/destination/background-destination-tablet.jpg')] bg-[url('/assets/destination/background-destination-mobile.jpg')]">
+  <main className="min-h-screen flex flex-col bg-cover md:bg-cover md:bg-[url('/assets/destination/background-destination-tablet.jpg')] bg-[url('/assets/destination/background-destination-mobile.jpg')]">
     <Navbar/>
     <div className='mt-6 mx-6 md:ml-10 md:mr-0 text-white'>
       <p className='md:text-start md:text-xl text-center text-base text-white font-barlow-condensed font-normal tracking-[2.7px]'><span className='opacity-50 mr-2'>01</span> PICK YOUR DESTINATION </p>  
     </div>
+
     <div className='mt-8 mx-auto '>
         <Image
           src="/assets/destination/image-titan.png"
           className='md:hidden'
-          width={150}
-          height={200}
+          width={208}
+          height={208}
           alt="titan"
           priority
         />
 
         <Image
           src="/assets/destination/image-titan.png"
-          className='md:mb-8'
+          className='md:mb-8 hidden md:block'
           width={300}
           height={300}
           alt="titan"
           priority
         />
     </div>
+
      {/* Destination navigation */}
      <DestinationNav />
       

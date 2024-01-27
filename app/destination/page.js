@@ -7,7 +7,7 @@ import DestinationNav from '../components/DestinationNav';
 // Define the Destination component
 export default function Destination() {
   return (
-    <main className="min-h-screen flex flex-col bg-contain md:bg-cover md:bg-[url('/assets/destination/background-destination-tablet.jpg')] bg-[url('/assets/destination/background-destination-mobile.jpg')]">
+    <main className="min-h-screen flex flex-col bg-cover md:bg-cover md:bg-[url('/assets/destination/background-destination-tablet.jpg')] bg-[url('/assets/destination/background-destination-mobile.jpg')]">
       <Navbar />
       
       {/* Destination title */}
@@ -18,11 +18,21 @@ export default function Destination() {
       </div>
       
       {/* Moon image */}
-      <div className='mt-8 md:mb-8 mx-auto'>
+      <div className='mt-8 md:mb-8 mx-auto hidden md:block'>
         <Image
           src="/assets/destination/image-moon.png"
           width={300}
           height={300}
+          alt="moon"
+          priority
+        />
+      </div>
+
+      <div className='mt-8 md:mb-8 mx-auto md:hidden'>
+        <Image
+          src="/assets/destination/image-moon.png"
+          width={208}
+          height={208}
           alt="moon"
           priority
         />
