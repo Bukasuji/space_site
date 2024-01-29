@@ -6,7 +6,7 @@ const CrewNav = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="mx-auto mt-8">
+    <nav className="mx-auto xl:mx-0 mt-8 xl:mt-20">
       <ul className="flex items-center space-x-4">
         <li className={`rounded-full h-2.5 w-2.5 ${pathname === '/crew' ? 'bg-white' : 'bg-white opacity-20'}`}>
           <Link href="/crew"><div className="block h-full"></div></Link>
