@@ -6,7 +6,7 @@ import Link from 'next/link';
 const DestinationNav = () => {
   const pathname = usePathname()
   return (
-    <nav className="mx-auto mt-4 text-sm md:text-base">
+    <nav className="mx-auto mt-4 text-sm md:text-base flex justify-center xl:justify-start ">
       <ul className="flex items-center space-x-5 md:space-x-9 font-barlow-condensed text-[#D0D6F9] tracking-widest">
         <li>
           <Link href="/destination" className={`${pathname === '/destination' ? 'border-b-2 border-white text-white pb-1' : ''}`}>
