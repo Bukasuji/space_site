@@ -9,9 +9,9 @@ import Crew_nav from '../../components/Crew_nav';
 export default function Crew_c() {
   
   return (
-  <main className="min-h-screen flex flex-col bg-cover md:bg-[url('/assets/crew/background-crew-tablet.jpg')] bg-[url('/assets/crew/background-crew-mobile.jpg')]">
+  <main className="min-h-screen flex flex-col bg-cover xl:bg-[url('/assets/crew/background-crew-desktop.jpg')] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] bg-[url('/assets/crew/background-crew-mobile.jpg')]">
     <Navbar/>
-    <div className='xl:flex xl:mx-40 xl:mt-20 border xl:mb-0 xl:h-[100%]'>
+    <div className='xl:flex xl:mx-40 xl:mt-20 xl:mb-0 xl:h-[100%]'>
         <div className='flex justify-center xl:justify-start flex-col xl:w-[70%]'>
             <div className='mt-6 xl:mt-0 md:ml-10 xl:ml-0 md:mr-0 mx-6 text-white'>
               <p className='md:text-start md:text-xl xl:text-3xl xl:text-start text-center text-base md:text-xl text-white font-barlow-condensed font-normal tracking-[2.7px]'><span className='opacity-50 mr-2'>02</span> MEET YOUR CREW</p>  

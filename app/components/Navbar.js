@@ -25,23 +25,23 @@ export default function Navbar() {
       </div>
       
       {/* Navigation Links for Tablets and Desktops */}
-      <div className='hidden md:flex text-white h-[96px] w-[60%] bg-white bg-opacity-10 backdrop-blur-2xl shadow-md font-barlow-condensed font-normal text-base tracking-widest'>
-        <ul className="pt-10 h-[96px] ml-12 xl:ml-28 space-x-10 flex">
-          <li className={`h-full ${pathname === '/' ? 'border-white border-b-4' : ''}`}>
-            <Link href="/"><span className='mr-3 font-bold hidden xl:inline'>00</span>HOME</Link>
-          </li>
-          <li className={`h-full ${pathname === '/destination' ? 'border-white border-b-4' : ''}`}>
-            <Link href="/destination"><span className='mr-3 font-bold hidden xl:inline'>01</span>DESTINATION</Link>
-          </li>
-          <li className={`h-full ${pathname === '/crew' ? 'border-white border-b-4' : ''}`}>
-            <Link href="/crew"><span className='mr-3 font-bold hidden xl:inline'>02</span>CREW</Link>
-          </li>
-          <li className={`h-full ${pathname === '/technology' ? 'border-white border-b-4' : ''}`}>
-            <Link href="/technology"><span className='mr-3 font-bold hidden xl:inline'>03</span>TECHNOLOGY</Link>
-          </li>
-        </ul>
-      </div>
-      <div className='mx-auto xl:mx-0 xl:w-[35%] h-px bg-[#383B4B] my-8 md:my-10 md:mt-16 md:mb-8 xl:mt-11 left-28 xl:absolute hidden xl:block'/>
+      <div className='hidden md:flex text-white h-[96px] w-[60%] bg-white bg-opacity-10 backdrop-filter backdrop-blur-[40.774227142333984px] font-barlow-condensed font-normal text-base tracking-widest'>
+  <ul className="pt-10 h-[96px] ml-12 xl:ml-28 space-x-10 flex">
+    <li className={`h-full ${pathname === '/' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+      <Link href="/"><span className='mr-3 font-bold hidden xl:inline'>00</span>HOME</Link>
+    </li>
+    <li className={`h-full ${pathname === '/destination' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+      <Link href="/destination"><span className='mr-3 font-bold hidden xl:inline'>01</span>DESTINATION</Link>
+    </li>
+    <li className={`h-full ${pathname === '/crew' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+      <Link href="/crew"><span className='mr-3 font-bold hidden xl:inline'>02</span>CREW</Link>
+    </li>
+    <li className={`h-full ${pathname === '/technology' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+      <Link href="/technology"><span className='mr-3 font-bold hidden xl:inline'>03</span>TECHNOLOGY</Link>
+    </li>
+  </ul>
+</div>
+<div className='mx-auto xl:mx-0 xl:w-[35%] h-px bg-[#696c80] my-8 md:my-10 md:mt-16 md:mb-8 xl:mt-11 left-28 xl:absolute hidden xl:block'/>
 
       {/* Navigation links for  Mobile Screens */}
       <div className='sm:hidden lg:hidden'>

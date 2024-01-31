@@ -9,7 +9,7 @@ import Crew_nav from '../../components/Crew_nav';
 export default function Crew_b() {
   
   return (
-  <main className="min-h-screen flex flex-col bg-cover md:bg-[url('/assets/crew/background-crew-tablet.jpg')] bg-[url('/assets/crew/background-crew-mobile.jpg')]">
+  <main className="min-h-screen flex flex-col bg-cover xl:bg-[url('/assets/crew/background-crew-desktop.jpg')] md:bg-[url('/assets/crew/background-crew-tablet.jpg')] bg-[url('/assets/crew/background-crew-mobile.jpg')]">
     <Navbar/>
     <div className='xl:flex xl:mx-40 xl:mt-20'>
         <div className='flex justify-center xl:justify-start flex-col xl:w-[70%]'>
