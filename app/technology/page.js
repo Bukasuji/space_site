@@ -9,7 +9,7 @@ import Technology_nav from '../components/Technology_nav';
 export default function Technology() {
   
   return (
-  <main className="min-h-screen flex flex-col bg-cover bg-[url('/assets/technology/background-technology-mobile.jpg')] md:bg-[url('/assets/technology/background-technology-tablet.jpg')] mx-auto">
+  <main className="min-h-screen flex flex-col bg-cover bg-[url('/assets/technology/background-technology-mobile.jpg')] md:bg-[url('/assets/technology/background-technology-tablet.jpg')] xl:bg-[url('/assets/technology/background-technology-desktop.jpg')] mx-auto">
     <Navbar/>
     <div className= 'mt-6 md:ml-10 md:mr-0 mx-6 xl:ml-40 xl:mt-20 text-white'>
       <p className='md:text-start md:text-xl xl:text-3xl text-center text-base text-white font-barlow-condensed font-normal tracking-[2.7px]'> <span className='opacity-50 mr-2'>03</span> SPACE LUNCH 101</p>  
