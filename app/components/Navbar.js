@@ -13,8 +13,8 @@ export default function Navbar() {
   };
 
   return (
-    <nav className='flex md:ml-6 md:mx-0 md:mt-0 mx-6 mt-6 justify-between items-center'>
-      <div className='mr-4'>
+    <nav className='flex md:ml-10 md:mx-0 md:mt-0 mx-6 mt-6 justify-between items-center'>
+      <div className=''>
         <Image
           src="/assets/shared/logo.svg"
           width={40}
