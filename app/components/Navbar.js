@@ -30,13 +30,13 @@ export default function Navbar() {
     <li className={`h-full ${pathname === '/' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
       <Link href="/"><span className='mr-3 font-bold hidden xl:inline'>00</span>HOME</Link>
     </li>
-    <li className={`h-full ${pathname === '/destination' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+    <li className={`h-full ${pathname.startsWith('/destination') ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
       <Link href="/destination"><span className='mr-3 font-bold hidden xl:inline'>01</span>DESTINATION</Link>
     </li>
-    <li className={`h-full ${pathname === '/crew' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+    <li className={`h-full ${pathname.startsWith('/crew') ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
       <Link href="/crew"><span className='mr-3 font-bold hidden xl:inline'>02</span>CREW</Link>
     </li>
-    <li className={`h-full ${pathname === '/technology' ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
+    <li className={`h-full ${pathname.startsWith('/technology') ? 'border-white border-b-4' : 'hover:border-b-4 border-[#808080]'}`}>
       <Link href="/technology"><span className='mr-3 font-bold hidden xl:inline'>03</span>TECHNOLOGY</Link>
     </li>
   </ul>
