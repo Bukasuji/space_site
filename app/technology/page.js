@@ -32,7 +32,7 @@ export default function Technology() {
             <div className='xl:text-start text-center mt-4 md:mt-10 xl:mt-0 xl:ml-0'>
               <p className='font-barlow-condensed font-normal text-sm md:text-base  md:tracking-widest text-[#D0D6F9] uppercase'>THE TERMINOLOGY...</p>
               <p className='font-sans text-white text-2xl md:text-4xl xl:text-5xl uppercase mt-2 md:mt-4'>LAUNCH VEHICLE</p>
-              <p className='text-[#D0D6F9] font-base xl:text-lg font-barlow font-normal mx-6 mt-4 md:w-[47%] md:mx-auto xl:mx-0 xl:w-[444px]'>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+              <p className='text-[#D0D6F9] font-base xl:text-lg font-barlow font-normal mx-6 mt-4 md:w-[47%] md:mx-auto xl:mx-0 xl:w-[444px]'>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth&apos;s surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it&apos;s quite an awe-inspiring sight on the launch pad!</p>
             </div>
         </div>
 
