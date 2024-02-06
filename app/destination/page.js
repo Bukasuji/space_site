@@ -1,10 +1,10 @@
-// Import necessary modules and components
+
 import Image from 'next/image';
 import React from 'react';
 import Navbar from '../components/Navbar';
 import DestinationNav from '../components/DestinationNav';
 
-// Define the Destination component
+
 export default function Destination() {
   return (
     <main className="min-h-screen flex flex-col bg-cover md:bg-cover xl:bg-[url('/assets/destination/background-destination-desktop.jpg')] md:bg-[url('/assets/destination/background-destination-tablet.jpg')] bg-[url('/assets/destination/background-destination-mobile.jpg')]">

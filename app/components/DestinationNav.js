@@ -1,5 +1,4 @@
 'use client'
-// components/Navbar.js
 import { usePathname } from 'next/navigation'
 import Link from 'next/link';
 
