@@ -43,7 +43,7 @@ export default function Titan() {
                   src="/assets/destination/image-titan.png"
                   width={208}
                   height={208}
-                  alt="europa"
+                  alt="titan"
                   priority
                 />
               </div>

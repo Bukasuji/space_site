@@ -21,7 +21,7 @@ export default function Technology_c() {
             className='w-full h-auto'
             width={375}
             height={222}
-            alt="spaceport"
+            alt="space capsule"
             priority
           />
         </div>
@@ -41,7 +41,7 @@ export default function Technology_c() {
             className=''
             width={515}
             height={527}
-            alt="spaceport"
+            alt="space capsule"
             priority
           />
         </div>

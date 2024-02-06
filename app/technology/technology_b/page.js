@@ -18,7 +18,7 @@ export default function Technology_b() {
     <div className='xl:flex xl:ml-40'>
         <div className='mt-8 md:mt-12 xl:hidden'>
             <Image
-              src="/assets/technology/image-launch-vehicle-landscape.jpg"
+              src="/assets/technology/image-spaceport-landscape.jpg"
               className='w-full h-auto'
               width={375}
               height={222}

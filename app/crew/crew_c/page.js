@@ -55,14 +55,14 @@ export default function Crew_c() {
                   className=''
                   width={554}
                   height={681}
-                  alt="mark shuttleworth"
+                  alt="Victor glover"
                   priority
                 />
             </div>
             <div className='text-center mt-4 md:hidden'>
-              <p className='font-sans text-base text-white opacity-40 uppercase'>Mission Specialist</p>
-              <p className='font-sans text-white text-2xl uppercase'>MARK SHUTTLEWORTH</p>
-              <p className='text-[#D0D6F9] font-base font-barlow mx-6 mt-4'>Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.</p>
+              <p className='font-sans text-base text-white opacity-40 uppercase'>pilot</p>
+              <p className='font-sans text-white text-2xl uppercase'>Victor Glover</p>
+              <p className='text-[#D0D6F9] font-base font-barlow mx-6 mt-4'>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer. </p>
             </div>
         </div>
     </div>
