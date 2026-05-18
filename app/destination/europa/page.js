@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import Navbar from '../../components/Navbar';
-import DestinationNav from '../../components/Destination'
+import DestinationNav from '../../components/DestinationNav'
 
 export default function Europa() {
   return (
