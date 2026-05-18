@@ -1,3 +1,4 @@
+"use client"
 
 import Image from 'next/image';
 import React from 'react';
@@ -58,7 +59,7 @@ export default function Destination() {
               <p className='font-sans text-[56px] md:text-[80px] xl:text-[6.25rem] text-white'>MOON</p>
               <div className='xl:mx-0 md:mx-auto md:w-[80%] xl:w-[100%] md:text-base xl:text-[18px]'>
                   <p className='text-[#D0D6F9] font-barlow xl:mx-0 mx-6'>
-                    See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
+                    See our planet as you've never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you're there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
                   </p>
               </div>
             </div>
