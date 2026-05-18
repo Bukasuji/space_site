@@ -24,6 +24,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Preload all background images to prevent white splash on first navigation */}
+        <link rel="preload" as="image" href="/assets/home/background-home-mobile.jpg" />
+        <link rel="preload" as="image" href="/assets/home/background-home-tablet.jpg" />
+        <link rel="preload" as="image" href="/assets/home/background-home-desktop.jpg" />
+        <link rel="preload" as="image" href="/assets/destination/background-destination-mobile.jpg" />
+        <link rel="preload" as="image" href="/assets/destination/background-destination-tablet.jpg" />
+        <link rel="preload" as="image" href="/assets/destination/background-destination-desktop.jpg" />
+        <link rel="preload" as="image" href="/assets/crew/background-crew-mobile.jpg" />
+        <link rel="preload" as="image" href="/assets/crew/background-crew-tablet.jpg" />
+        <link rel="preload" as="image" href="/assets/crew/background-crew-desktop.jpg" />
+        <link rel="preload" as="image" href="/assets/technology/background-technology-mobile.jpg" />
+        <link rel="preload" as="image" href="/assets/technology/background-technology-tablet.jpg" />
+        <link rel="preload" as="image" href="/assets/technology/background-technology-desktop.jpg" />
+      </head>
       <body className={`${bellefair.variable} ${barlow.variable} ${barlowCondensed.variable}`}>
           {children}
       </body>
