@@ -17,6 +17,7 @@
 } */
 
 body {
+  background-color: #0a0e27; /* Dark space color fallback */
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
